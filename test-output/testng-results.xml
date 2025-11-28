@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-27T22:11:32 IST" name="Suite" finished-at="2025-11-27T22:12:51 IST" duration-ms="79530">
+    <groups>
+      <group name="datadriven">
+        <method signature="LoginTest.verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" name="verify_Login_With_Valid_And_InValid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="LoginTest.verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" name="verify_Login_With_Valid_And_InValid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+      </group> <!-- datadriven -->
+      <group name="functional">
+        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@2b40ff9c]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
+        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@3cce5371]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@2b40ff9c]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
+        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@3cce5371]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-11-27T22:11:32 IST" name="LinuxfirefoxTest" finished-at="2025-11-27T22:12:51 IST" duration-ms="79018">
+      <class name="bridgelabz.TestClasses.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:11:39 IST" name="setUp" finished-at="2025-11-27T22:11:42 IST" duration-ms="2870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:11:42 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:11:44 IST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kseetaramaraju1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Seeta@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:11:44 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:05 IST" duration-ms="20809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[money99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[money]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:12:05 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:26 IST" duration-ms="21219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[keyboard88@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keyboard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:12:26 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:47 IST" duration-ms="21262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monitor66@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monitor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:12:47 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:49 IST" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Venu@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:12:49 IST" name="verify_Login_With_Valid_Credentials" finished-at="2025-11-27T22:12:50 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.LoginTest@17bffc17]" started-at="2025-11-27T22:12:50 IST" name="tearDown" finished-at="2025-11-27T22:12:51 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bridgelabz.TestClasses.LoginTest -->
+      <class name="bridgelabz.TestClasses.RegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@3cce5371]" started-at="2025-11-27T22:11:32 IST" name="setUp" finished-at="2025-11-27T22:11:36 IST" duration-ms="3575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@3cce5371]" started-at="2025-11-27T22:11:36 IST" name="verify_Registeration_With_Valid_Data" finished-at="2025-11-27T22:11:38 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Registeration_With_Valid_Data -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@3cce5371]" started-at="2025-11-27T22:11:38 IST" name="tearDown" finished-at="2025-11-27T22:11:39 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bridgelabz.TestClasses.RegistrationTest -->
+    </test> <!-- LinuxfirefoxTest -->
+    <test started-at="2025-11-27T22:11:32 IST" name="LinuxchromeTest" finished-at="2025-11-27T22:12:51 IST" duration-ms="79530">
+      <class name="bridgelabz.TestClasses.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:11:38 IST" name="setUp" finished-at="2025-11-27T22:11:40 IST" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:11:40 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:11:43 IST" duration-ms="2704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kseetaramaraju1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Seeta@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:11:43 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:05 IST" duration-ms="21776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[money99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[money]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:12:05 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:26 IST" duration-ms="21325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[keyboard88@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keyboard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:12:26 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:47 IST" duration-ms="21396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monitor66@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monitor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:12:47 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-27T22:12:50 IST" duration-ms="2227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Venu@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
+        <test-method signature="verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:12:50 IST" name="verify_Login_With_Valid_Credentials" finished-at="2025-11-27T22:12:51 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.LoginTest@70ed52de]" started-at="2025-11-27T22:12:51 IST" name="tearDown" finished-at="2025-11-27T22:12:51 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bridgelabz.TestClasses.LoginTest -->
+      <class name="bridgelabz.TestClasses.RegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@2b40ff9c]" started-at="2025-11-27T22:11:32 IST" name="setUp" finished-at="2025-11-27T22:11:34 IST" duration-ms="1885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@2b40ff9c]" started-at="2025-11-27T22:11:34 IST" name="verify_Registeration_With_Valid_Data" finished-at="2025-11-27T22:11:38 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Registeration_With_Valid_Data -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@2b40ff9c]" started-at="2025-11-27T22:11:38 IST" name="tearDown" finished-at="2025-11-27T22:11:38 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bridgelabz.TestClasses.RegistrationTest -->
+    </test> <!-- LinuxchromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
