@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 26 16:50:05 IST 2025</td>
+<td>Started on:</td><td>Mon Dec 15 23:02:45 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>95 seconds (95551 ms)</td>
+<tr><td>Total time:</td><td>135 seconds (135766 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,97 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials(LoginTest.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1455019071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1455019071'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1290733383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1290733383'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials(LoginTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>20</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: venu123@gmail.com, Venu@123, valid</td>
+<td></td>
+<td>1</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
+<tr>
+<td title='bridgelabz.TestClasses.RegistrationTest.verify_Registeration_With_Valid_Data()'><b>verify_Registeration_With_Valid_Data</b><br>Test class: bridgelabz.TestClasses.RegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>bridgelabz.TestClasses.RegistrationTest@2b40ff9c</td></tr>
+<tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: money99@gmail.com, money, Invalid</td>
+<td></td>
+<td>21</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
+<tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: kseetaramaraju1@gmail.com, Seeta@123, valid</td>
+<td></td>
+<td>1</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
+<tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: keyboard88@gmail.com, keyboard, Invalid</td>
+<td></td>
+<td>20</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
+<tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: monitor66@gmail.com, monitor, Invalid</td>
+<td></td>
+<td>20</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials()'><b>verify_Login_With_Valid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials(LoginTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace625907465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace625907465'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
@@ -114,47 +203,49 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>21</td>
-<td>bridgelabz.TestClasses.LoginTest@5ddeb7cb</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>20</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
 <tr>
-<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: venu123@gmail.com, Venu@123, valid</td>
-<td></td>
-<td>1</td>
-<td>bridgelabz.TestClasses.LoginTest@5ddeb7cb</td></tr>
-<tr>
-<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: kseetaramaraju1@gmail.com, Seeta@123, valid</td>
-<td></td>
-<td>1</td>
-<td>bridgelabz.TestClasses.LoginTest@5ddeb7cb</td></tr>
-<tr>
-<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: money99@gmail.com, money, Invalid</td>
-<td></td>
-<td>21</td>
-<td>bridgelabz.TestClasses.LoginTest@5ddeb7cb</td></tr>
-<tr>
-<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: monitor66@gmail.com, monitor, Invalid</td>
-<td></td>
-<td>21</td>
-<td>bridgelabz.TestClasses.LoginTest@5ddeb7cb</td></tr>
-<tr>
-<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_And_InValid_Credentials()'><b>verify_Login_With_Valid_And_InValid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest<br>Parameters: keyboard88@gmail.com, keyboard, Invalid</td>
-<td></td>
-<td>21</td>
-<td>bridgelabz.TestClasses.LoginTest@5ddeb7cb</td></tr>
-<tr>
-<td title='bridgelabz.TestClasses.RegistrationTest.verify_Registeration_With_Valid_Data()'><b>verify_Registeration_With_Valid_Data</b><br>Test class: bridgelabz.TestClasses.RegistrationTest</td>
-<td></td>
-<td>2</td>
-<td>bridgelabz.TestClasses.RegistrationTest@451001e5</td></tr>
+<td title='bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials()'><b>verify_Login_With_Valid_Credentials</b><br>Test class: bridgelabz.TestClasses.LoginTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials(LoginTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1073839768", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1073839768'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at bridgelabz.TestClasses.LoginTest.verify_Login_With_Valid_Credentials(LoginTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>20</td>
+<td>bridgelabz.TestClasses.LoginTest@70ed52de</td></tr>
 </table><p>
 </body>
 </html>

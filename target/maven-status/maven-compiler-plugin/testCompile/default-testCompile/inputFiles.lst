@@ -3,6 +3,7 @@ C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\PageCla
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\PageClasses\LoginPage.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\PageClasses\MyAccountPage.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\PageClasses\RegistrationPage.java
+C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\PageClasses\SearchPage.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\TestClasses\BaseTest.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\TestClasses\DriverManager.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\TestClasses\LoginTest.java
@@ -11,3 +12,6 @@ C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\Utility
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\UtilityClases\DataProviderUtility.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\UtilityClases\ExcelUtility.java
 C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\UtilityClases\ExtentReportManagerUtility.java
+C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\UtilityClases\MethodLogger.java
+C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\UtilityClases\RetryAnalyzer.java
+C:\All Automation Projects\OpenChartApplication\src\test\java\bridgelabz\UtilityClases\RetryListener.java

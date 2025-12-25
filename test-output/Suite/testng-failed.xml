@@ -3,9 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="bridgelabz.UtilityClases.ExtentReportManagerUtility"/>
+    <listener class-name="bridgelabz.UtilityClases.MethodLogger"/>
+    <listener class-name="bridgelabz.UtilityClases.RetryListener"/>
   </listeners>
-  <test thread-count="5" name="LinuxchromeTest(failed)">
-    <parameter name="os" value="linux"/>
+  <test thread-count="5" name="WindowsChromeTest(failed)">
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="bridgelabz.TestClasses.LoginTest">
@@ -13,9 +15,21 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="verify_Login_With_Valid_Credentials"/>
-          <include name="verify_Login_With_Valid_And_InValid_Credentials" invocation-numbers="1 2 3 4"/>
         </methods>
       </class> <!-- bridgelabz.TestClasses.LoginTest -->
     </classes>
-  </test> <!-- LinuxchromeTest(failed) -->
+  </test> <!-- WindowsChromeTest(failed) -->
+  <test thread-count="5" name="WindowsEdgeTest(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="bridgelabz.TestClasses.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_Login_With_Valid_Credentials"/>
+        </methods>
+      </class> <!-- bridgelabz.TestClasses.LoginTest -->
+    </classes>
+  </test> <!-- WindowsEdgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

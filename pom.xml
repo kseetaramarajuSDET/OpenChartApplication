@@ -15,7 +15,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-
 	<build>
 		<!-- To define the plugin version in your parent POM -->
 		<pluginManagement>

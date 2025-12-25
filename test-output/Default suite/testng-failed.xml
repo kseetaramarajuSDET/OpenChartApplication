@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verify_Login_With_Valid_Credentials"/>
+          <include name="verify_Login_With_Valid_And_InValid_Credentials"/>
         </methods>
       </class> <!-- bridgelabz.TestClasses.LoginTest -->
     </classes>

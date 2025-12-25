@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T12:03:52 IST" name="Suite" finished-at="2025-11-28T12:05:17 IST" duration-ms="84563">
+  <suite started-at="2025-12-21T22:23:52 IST" name="Suite" finished-at="2025-12-21T22:25:07 IST" duration-ms="75189">
     <groups>
       <group name="datadriven">
-        <method signature="LoginTest.verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" name="verify_Login_With_Valid_And_InValid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="LoginTest.verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" name="verify_Login_With_Valid_And_InValid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
       </group> <!-- datadriven -->
       <group name="functional">
-        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
-        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@4550bb58]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
+        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@9597028]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
       </group> <!-- functional -->
       <group name="smoke">
-        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@4550bb58]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
+        <method signature="RegistrationTest.verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@9597028]" name="verify_Registeration_With_Valid_Data" class="bridgelabz.TestClasses.RegistrationTest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
+        <method signature="LoginTest.verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" name="verify_Login_With_Valid_Credentials" class="bridgelabz.TestClasses.LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-11-28T12:03:52 IST" name="Test" finished-at="2025-11-28T12:05:17 IST" duration-ms="84563">
+    <test started-at="2025-12-21T22:23:52 IST" name="Test" finished-at="2025-12-21T22:25:07 IST" duration-ms="75189">
       <class name="bridgelabz.TestClasses.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:03:58 IST" name="setUp" finished-at="2025-11-28T12:04:00 IST" duration-ms="1737" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:23:58 IST" name="setUp" finished-at="2025-12-21T22:23:59 IST" duration-ms="1372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,14 +29,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:04:01 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-28T12:04:03 IST" duration-ms="2658" status="PASS">
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:24:00 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-12-21T22:24:01 IST" duration-ms="1628" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
-        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:04:03 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-28T12:04:25 IST" duration-ms="22001" status="PASS">
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:24:01 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-12-21T22:24:22 IST" duration-ms="20738" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
-        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:04:25 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-28T12:04:47 IST" duration-ms="21880" status="PASS">
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:24:22 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-12-21T22:24:43 IST" duration-ms="20645" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
-        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:04:47 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-28T12:05:09 IST" duration-ms="21838" status="PASS">
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:24:43 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-12-21T22:25:03 IST" duration-ms="20670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
-        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:05:09 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-11-28T12:05:13 IST" duration-ms="4233" status="PASS">
+        <test-method signature="verify_Login_With_Valid_And_InValid_Credentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:25:03 IST" name="verify_Login_With_Valid_And_InValid_Credentials" data-provider="logindata" finished-at="2025-12-21T22:25:06 IST" duration-ms="2634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,17 +141,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_With_Valid_And_InValid_Credentials -->
-        <test-method signature="verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:05:13 IST" name="verify_Login_With_Valid_Credentials" finished-at="2025-11-28T12:05:16 IST" duration-ms="3151" status="PASS">
+        <test-method signature="verify_Login_With_Valid_Credentials()[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:25:06 IST" name="verify_Login_With_Valid_Credentials" finished-at="2025-12-21T22:25:07 IST" duration-ms="1319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_With_Valid_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.LoginTest@4efbca5a]" started-at="2025-11-28T12:05:16 IST" name="tearDown" finished-at="2025-11-28T12:05:17 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.LoginTest@67c27493]" started-at="2025-12-21T22:25:07 IST" name="tearDown" finished-at="2025-12-21T22:25:07 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- bridgelabz.TestClasses.LoginTest -->
       <class name="bridgelabz.TestClasses.RegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@4550bb58]" started-at="2025-11-28T12:03:52 IST" name="setUp" finished-at="2025-11-28T12:03:54 IST" duration-ms="2082" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@9597028]" started-at="2025-12-21T22:23:52 IST" name="setUp" finished-at="2025-12-21T22:23:55 IST" duration-ms="2670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,18 +160,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@4550bb58]" started-at="2025-11-28T12:03:54 IST" name="verify_Registeration_With_Valid_Data" finished-at="2025-11-28T12:03:58 IST" duration-ms="3588" status="PASS">
+        <test-method signature="verify_Registeration_With_Valid_Data()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@9597028]" started-at="2025-12-21T22:23:55 IST" name="verify_Registeration_With_Valid_Data" finished-at="2025-12-21T22:23:57 IST" duration-ms="2419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registeration_With_Valid_Data -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@4550bb58]" started-at="2025-11-28T12:03:58 IST" name="tearDown" finished-at="2025-11-28T12:03:58 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bridgelabz.TestClasses.RegistrationTest@9597028]" started-at="2025-12-21T22:23:57 IST" name="tearDown" finished-at="2025-12-21T22:23:58 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

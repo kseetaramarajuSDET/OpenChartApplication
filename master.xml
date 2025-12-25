@@ -2,10 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
+	<listeners>
+		<listener class-name="bridgelabz.UtilityClases.ExtentReportManagerUtility" />
+		<listener class-name="bridgelabz.UtilityClases.MethodLogger" />
+		<listener class-name="bridgelabz.UtilityClases.RetryListener" />
+	</listeners>
+
+
 	<test thread-count="5" name="Test">
 
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="bridgelabz.TestClasses.RegistrationTest" />

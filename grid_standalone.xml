@@ -4,13 +4,14 @@
 
 
 	<listeners>
-		<listener
-			class-name="bridgelabz.UtilityClases.ExtentReportManagerUtility" />
+		    <listener class-name="bridgelabz.UtilityClases.ExtentReportManagerUtility" />
+			<listener class-name="bridgelabz.UtilityClases.MethodLogger" />
+		    <listener class-name="bridgelabz.UtilityClases.RetryListener" />
 	</listeners>
 
-	<test name="LinuxchromeTest">
+	<test name="WindowsChromeTest">
 		<parameter name="browser" value="chrome" />
-		<parameter name="os" value="linux" />
+		<parameter name="os" value="windows" />
 		<classes>
 			<class name="bridgelabz.TestClasses.RegistrationTest" />
 			<class name="bridgelabz.TestClasses.LoginTest" />
@@ -18,9 +19,9 @@
 	</test> <!-- Test -->
 
 
-	<test name="LinuxfirefoxTest">
-		<parameter name="browser" value="firefox" />
-		<parameter name="os" value="linux" />
+	<test name="WindowsEdgeTest">
+		<parameter name="browser" value="edge" />
+		<parameter name="os" value="windows" />
 		<classes>
 			<class name="bridgelabz.TestClasses.RegistrationTest" />
 			<class name="bridgelabz.TestClasses.LoginTest" />

@@ -1,0 +1,57 @@
+2025-12-21 22:25:03 WARN  BasePage - Element not displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h2[normalize-space()='My Account']'
+2025-12-21 22:25:03 INFO  HomePage - Starting login process with valid credentials
+2025-12-21 22:25:03 INFO  HomePage - Clicking on My Account link
+2025-12-21 22:25:03 INFO  HomePage - Clicking on 'My Account' link
+2025-12-21 22:25:03 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@title='My Account']]
+2025-12-21 22:25:03 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@title='My Account']]
+2025-12-21 22:25:03 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@title='My Account']]
+2025-12-21 22:25:03 INFO  HomePage - Clicking on Login link
+2025-12-21 22:25:03 INFO  HomePage - Clicking on 'Login' link
+2025-12-21 22:25:03 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+2025-12-21 22:25:03 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+2025-12-21 22:25:03 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+2025-12-21 22:25:04 INFO  HomePage - Entering email: venu123@gmail.com
+2025-12-21 22:25:04 INFO  BasePage - Waiting for element to be visible: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:04 INFO  BasePage - Element is visible now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:04 INFO  BasePage - Clearing text from: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:04 INFO  BasePage - Entering text 'venu123@gmail.com' into: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:04 INFO  HomePage - Entering password
+2025-12-21 22:25:04 INFO  BasePage - Waiting for element to be visible: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:04 INFO  BasePage - Element is visible now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:04 INFO  BasePage - Clearing text from: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:04 INFO  BasePage - Entering text 'Venu@123' into: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:04 INFO  HomePage - Clicking Login button
+2025-12-21 22:25:04 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@value='Login']]
+2025-12-21 22:25:04 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@value='Login']]
+2025-12-21 22:25:04 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@value='Login']]
+2025-12-21 22:25:06 INFO  BasePage - Is element displayed? true --> [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //h2[normalize-space()='My Account']]
+2025-12-21 22:25:06 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+2025-12-21 22:25:06 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+2025-12-21 22:25:06 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+2025-12-21 22:25:06 INFO  HomePage - Starting login process with valid credentials
+2025-12-21 22:25:06 INFO  HomePage - Clicking on My Account link
+2025-12-21 22:25:06 INFO  HomePage - Clicking on 'My Account' link
+2025-12-21 22:25:06 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@title='My Account']]
+2025-12-21 22:25:06 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@title='My Account']]
+2025-12-21 22:25:06 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //a[@title='My Account']]
+2025-12-21 22:25:06 INFO  HomePage - Clicking on Login link
+2025-12-21 22:25:06 INFO  HomePage - Clicking on 'Login' link
+2025-12-21 22:25:06 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+2025-12-21 22:25:06 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+2025-12-21 22:25:06 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+2025-12-21 22:25:06 INFO  HomePage - Entering email: kseetaramaraju1@gmail.com
+2025-12-21 22:25:06 INFO  BasePage - Waiting for element to be visible: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:06 INFO  BasePage - Element is visible now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:06 INFO  BasePage - Clearing text from: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:06 INFO  BasePage - Entering text 'kseetaramaraju1@gmail.com' into: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-email']]
+2025-12-21 22:25:06 INFO  HomePage - Entering password
+2025-12-21 22:25:06 INFO  BasePage - Waiting for element to be visible: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:06 INFO  BasePage - Element is visible now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:06 INFO  BasePage - Clearing text from: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:06 INFO  BasePage - Entering text 'Seeta@123' into: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@id='input-password']]
+2025-12-21 22:25:07 INFO  HomePage - Clicking Login button
+2025-12-21 22:25:07 INFO  BasePage - Waiting for element to be clickable: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@value='Login']]
+2025-12-21 22:25:07 INFO  BasePage - Element is clickable now: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@value='Login']]
+2025-12-21 22:25:07 INFO  BasePage - Clicking on element: [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //input[@value='Login']]
+2025-12-21 22:25:07 INFO  BasePage - Is element displayed? true --> [[ChromeDriver: chrome on windows (375dbee28a4865b3dc2751a11a008419)] -> xpath: //h2[normalize-space()='My Account']]
+2025-12-21 22:25:07 INFO  HomePage - Login successful — My Account header is displayed
